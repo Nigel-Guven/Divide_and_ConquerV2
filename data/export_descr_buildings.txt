@@ -191,6 +191,7 @@ building core_castle_building
 				recruit_pool "Snaga Skirmishers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				population_growth_bonus bonus +2 requires factions { all, } and event_counter AI_growth 1
 			}
@@ -246,9 +247,10 @@ building core_castle_building
 				recruit_pool "Snaga Skirmishers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				recruit_pool "Gate Keepers"  1   0.035   1  0  requires factions { normans, }  and region_religion wildmen 65
-				population_growth_bonus bonus -1 requires factions { all, } and event_counter AI_growth 1
+				population_growth_bonus bonus -1 requires factions { all, } and event_counter AI_growth 1ab
 			}
 			material wooden
             construction  6
@@ -302,6 +304,7 @@ building core_castle_building
 				recruit_pool "Snaga Skirmishers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				recruit_pool "Gate Keepers"  1   0.045   1  0  requires factions { normans, }  and region_religion wildmen 65
 				population_growth_bonus bonus -2 requires factions { all, } and event_counter AI_growth 1
@@ -359,6 +362,7 @@ building core_castle_building
 				recruit_pool "Snaga Skirmishers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				recruit_pool "Gate Keepers"  1   0.055   1  0  requires factions { normans, }  and region_religion wildmen 65
 				recruit_pool "Temple Wards"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75 and hidden_resource Arthedain and hidden_resource ResE
@@ -418,6 +422,7 @@ building core_castle_building
 				recruit_pool "Snaga Skirmishers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				recruit_pool "Gate Keepers"  1   0.055   1  0  requires factions { normans, }  and region_religion wildmen 65
 				population_growth_bonus bonus -2 requires factions { all, } and event_counter AI_growth 1
@@ -2023,6 +2028,7 @@ building barracks
 
 				recruit_pool "Angmarim Archers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 25
 				recruit_pool "Angmarim Infantry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 25
+				recruit_pool "Druedain Hunters"  1   0.1   2  0  requires factions { portugal, }
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -2182,6 +2188,18 @@ building barracks
 				recruit_pool "Iron Crown Warriors"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 				recruit_pool "Iron Crown Halberdiers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 				recruit_pool "Iron Crown Longbowmen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Druedain Hunters"  1   0.1   2  0  requires factions { portugal, }
+				recruit_pool "Raider Warband"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Raider Skirmishers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -2376,6 +2394,18 @@ building barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.06   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.07   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.07   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
+				recruit_pool "Druedain Hunters"  1   0.1   2  0  requires factions { portugal, }
+				recruit_pool "Raider Warband"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Raider Skirmishers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -2597,6 +2627,18 @@ building barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.06   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.07   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.07   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
+				recruit_pool "Druedain Hunters"  1   0.1   2  0  requires factions { portugal, }
+				recruit_pool "Raider Warband"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Raider Skirmishers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 40
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -2820,7 +2862,16 @@ building barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.06   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.07   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.07   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
-
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
@@ -3130,6 +3181,17 @@ building castle_barracks
 				recruit_pool "Iron Crown Warriors"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
 				recruit_pool "Iron Crown Halberdiers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
 				recruit_pool "Iron Crown Longbowmen"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -3291,6 +3353,18 @@ building castle_barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.065   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.075   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.075   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
+				recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Rozadan Footmen"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
@@ -3522,7 +3596,19 @@ building castle_barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.065   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.075   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.075   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
-
+                recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Rozadan Footmen"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
@@ -3743,7 +3829,19 @@ building castle_barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.065   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.075   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.075   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
-
+                recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Rozadan Footmen"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, } 
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, } 
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }
+				
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
@@ -3958,7 +4056,10 @@ building castle_barracks
 				recruit_pool "Guardians of Carn Dum"  1   0.065   1  0  requires factions { portugal, }  and region_religion catholic 75 and hidden_resource Angmar and hidden_resource ResF
 				recruit_pool "Northguard"  1   0.075   1  0  requires factions { portugal, }  and region_religion catholic 75
 				recruit_pool "Darkblades"  1   0.075   1  0  requires factions { portugal, } and region_religion catholic 75 and hidden_resource frozenlands
-
+                recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Rozadan Footmen"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
@@ -5574,6 +5675,9 @@ building castle_port
 				recruit_pool "Haven Guard"  1   0.02   1  0  requires factions { turks, } and region_religion islam 75 and event_counter reunited_kingdom 1
 				recruit_pool "Azrazair Marines"  1   0.07   1  0  requires factions { russia, }   and region_religion kings 40
 				recruit_pool "Lindar Mariners"  1   0.07   1  0  requires factions { saxons, }  and region_religion elven 33 and event_counter mithlond_controlled 1
+				recruit_pool "Troll-men Warriors"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow-Orc Spearmen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow Trolls"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 				trade_base_income_bonus bonus 2
 				population_growth_bonus bonus 1
 				trade_fleet 1
@@ -5612,6 +5716,9 @@ building castle_port
 				recruit_pool "Nimrodel Mariners"  1   0.04   1  0  requires factions { turks, } and region_religion islam 60 and event_counter reunited_kingdom 1
 				recruit_pool "Azrazair Marines"  1   0.07   1  0  requires factions { russia, }   and region_religion kings 40
 				recruit_pool "Lindar Mariners"  1   0.08   1  0  requires factions { saxons, }  and region_religion elven 33 and event_counter mithlond_controlled 1
+				recruit_pool "Troll-men Warriors"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow-Orc Spearmen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow Trolls"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 				trade_base_income_bonus bonus 3
 				population_growth_bonus bonus 2
 				recruitment_cost_bonus_naval bonus 1 requires factions { denmark, russia, }
@@ -5652,6 +5759,9 @@ building castle_port
 				recruit_pool "Azrazair Marines"  1   0.07   1  0  requires factions { russia, }   and region_religion kings 40
 				recruit_pool "Lindar Mariners"  1   0.08   1  0  requires factions { saxons, }  and region_religion elven 33 and event_counter mithlond_controlled 1
 				recruit_pool "Lindar Mariners"  1   0.07   1  0  requires factions { hungary, }
+				recruit_pool "Troll-men Warriors"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow-Orc Spearmen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Snow Trolls"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 				trade_base_income_bonus bonus 3
 				population_growth_bonus bonus 2
 				recruitment_cost_bonus_naval bonus 1 requires factions { denmark, russia, }
@@ -6424,6 +6534,7 @@ building hinterland_mines
 				income_bonus bonus 50 requires factions { sicily, milan, scotland, turks, byzantium, spain, venice, denmark, russia, united, england, france, portugal, gundabad, poland,  }
 				income_bonus bonus 25 requires factions { normans, aztecs, timurids, teutonic_order, }
 				income_bonus bonus 25 requires factions { khand, } and not event_counter civil_war_end 1
+				recruit_pool "Troll-men Warriors"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 			}
 			material wooden
 			construction  6
@@ -7534,6 +7645,7 @@ building temple_catholic
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				pope_disapproval 1
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, } 
 				population_growth_bonus bonus 1 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
 			material wooden
@@ -7554,6 +7666,7 @@ building temple_catholic
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				pope_disapproval 1
 				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, } 
 				population_growth_bonus bonus 2 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
 			material wooden
@@ -7574,8 +7687,10 @@ building temple_catholic
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				happiness_bonus bonus 2
 				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, } 
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
 				retrain_cost_bonus bonus 1
-				pope_disapproval 1
+				pope_disapproval 1 
 				population_growth_bonus bonus 3 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
 			material wooden
@@ -7603,6 +7718,7 @@ building temple_c_catholic
 				religion_level bonus 1
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, }
 				pope_disapproval 1
 				population_growth_bonus bonus 1 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
@@ -7624,6 +7740,8 @@ building temple_c_catholic
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				pope_disapproval 1
 				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, }
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
 				population_growth_bonus bonus 2 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
 			material wooden
@@ -7644,6 +7762,8 @@ building temple_c_catholic
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				happiness_bonus bonus 2
 				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, }
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
 				retrain_cost_bonus bonus 1
 				pope_disapproval 1
 				population_growth_bonus bonus 3 requires factions { england, france, hre, gundabad, portugal, poland, }
@@ -8737,6 +8857,17 @@ building city_hall
 				recruit_pool "Snaga Stalkers"  1   0.15   1  0  requires factions { hre, }  and region_religion catholic 15
 				recruit_pool "Angmarim Levies"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
 				recruit_pool "Hillmen"  1   0.12   1  0  requires factions { portugal, }  and region_religion catholic 15
+				recruit_pool "Mochaini Ambaxtoi"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Berserkers"  1   0.112   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Sellswords"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Eored Lancers"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Wulfs Pikes"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Axemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Privateer Cavalry"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Saralainn Mercenaries"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Horsemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Dunlending Pikemen"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
+				recruit_pool "Variag Nobles"  1   0.1   2  0  requires factions { portugal, }  and region_religion catholic 50
 
 				recruit_pool "Snow-Orc Spearmen"  1   0.07   1  0  requires factions { gundabad,  }  and event_counter is_the_ai 1
 				recruit_pool "Snow-Orc Raiders"  1   0.07   1  0  requires factions { gundabad,  }  and event_counter is_the_ai 1

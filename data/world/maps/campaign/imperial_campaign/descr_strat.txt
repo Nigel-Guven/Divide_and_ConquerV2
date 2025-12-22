@@ -6064,6 +6064,7 @@ unit		Hillmen					exp 1 armour 0 weapon_lvl 0
 unit		Rhudaur Pikemen			exp 1 armour 0 weapon_lvl 0
 unit		Rhudaur Savages			exp 1 armour 0 weapon_lvl 0
 
+
 character	Drangu, named character, male, age 16, x 232, y 423, portrait Drangu, battle_model new_elite_wargs
 traits		Drangu 1, CustomBG 1, OrcRace 1, ColdWarrior 1, LoyaltyStarter 1, GoodCommander 1, StrategyChivalryEvil 2, Berserker 3, Bloodthirsty 2, Liar 3, WargCommander 1, GoodRiskyAttacker 1, NightBattleCapable 1
 ancillaries	whip
@@ -6071,6 +6072,28 @@ army
 unit		Mount Gram Raiders			exp 3 armour 0 weapon_lvl 0
 unit		Warg Raiders   				exp 1 armour 0 weapon_lvl 0
 unit		Warg Raiders   				exp 1 armour 0 weapon_lvl 0
+
+character	Aphanuzir, named character, male, age 16, x 184, y 450, portrait Balrog, battle_model balrog_general, hero_ability BALROG
+traits		Aphanuzir 1, CustomBG 1, Hero 1, MaiaRace 1, FearGeneral 1, HeroAbilityBalrog 1, BattleFear 6, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1, GoodCommander 3
+army
+unit		Balrog			exp 9 armour 2 weapon_lvl 1
+unit		Angmarim Infantry					exp 1 armour 0 weapon_lvl 0
+unit		Angmarim Infantry					exp 1 armour 0 weapon_lvl 0
+unit		Angmarim Archers					exp 1 armour 0 weapon_lvl 0
+unit		Angmarim Archers					exp 1 armour 0 weapon_lvl 0
+
+character	Gormadoc, named character, male, age 18, x 184, y 452, portrait Nar, battle_model khazad_general, hero_ability IRON_FIST
+traits		Gormadoc 1, CustomBG 1, Hero 1, DwarvenRace 1, Firebeard 1, Drink 1, Energetic 1, GoodCommander 2, GoodDefender 2, LoyaltyStarter 1, PietyStarter 1
+ancillaries	dwarven_axe, dwarven_coat, dwarven_helmet, dwarven_shield
+army
+unit		Zenith Guard				exp 3 armour 0 weapon_lvl 0
+unit		Zenith Guard				exp 3 armour 0 weapon_lvl 0
+unit		Zenith Guard				exp 3 armour 0 weapon_lvl 0
+unit		Tumunzahar Nobles				exp 3 armour 0 weapon_lvl 0
+unit		Tumunzahar Nobles				exp 3 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 3 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 3 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 3 armour 0 weapon_lvl 0
 
 character	Hardang, spy, male, age 28, x 219, y 424
 traits		AngmarManRace 1, SpySkill 4, NaturalSpySkill 1

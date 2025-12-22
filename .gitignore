@@ -46,6 +46,10 @@
 !export_descr_buildings.txt
 !export_descr_unit.txt
 !descr_strat.txt
+!battle_models.modeldb
+!descr_character.txt
+!campaign_script.txt
+!descr_model_strattxt
 *.debugdata
 *.pdf
 *.cbx

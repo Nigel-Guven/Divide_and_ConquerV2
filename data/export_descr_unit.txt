@@ -1,7 +1,6 @@
 ;##################################
 ;####### Divide and Conquer #######
 ;##################################
-;##################################
 ;######## REBEL BG
 ;######## GONDOR
 ;######## DOL AMROTH
@@ -204,7 +203,7 @@ stat_food	 			60, 300
 stat_cost				1, 1000, 380, 125, 125, 1000, 4, 100
 armour_ug_levels		3, 4
 armour_ug_models		merc_swords, merc_swords
-ownership				slave, portugal
+ownership				slave
 recruit_priority_offset	40
 
 ;#################################################################
@@ -2219,10 +2218,10 @@ stat_food				60, 300
 stat_cost				3, 1150, 420, 125, 125, 1150, 3, 126
 armour_ug_levels		2, 3, 4
 armour_ug_models		eorlingas, eorlingas_upg, eorlingas_upg
-ownership				milan, slave, turks, portugal
-era 0					milan, portugal
-era 1					milan, portugal
-era 2					milan, portugal
+ownership				milan, slave, turks
+era 0					milan
+era 1					milan
+era 2					milan
 recruit_priority_offset	80
 
 type					Riddermark Cavalry
@@ -5033,7 +5032,7 @@ banner holy				crusade
 soldier					khazad_bg, 15, 0, 1.5, 0.35
 officer					dwarf_captain_early_flag
 officer					dwarf_captain_early_flag
-attributes				sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit
+attributes				sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit, mercenary_unit
 move_speed_mod			0.9
 formation				1.2, 1.2, 2.4, 2.4, 4, square
 stat_health				1, 6
@@ -5052,10 +5051,10 @@ stat_food				60, 300
 stat_cost				3, 1000, 320, 200, 200, 1000, 1, 100
 armour_ug_levels		5, 6, 7
 armour_ug_models		khazad_bg, khazad_bg, khazad_bg
-ownership				norway, slave
-era 0					norway
-era 1					norway
-era 2					norway
+ownership				norway, slave, portugal
+era 0					norway, portugal
+era 1					norway, portugal
+era 2					norway, portugal
 recruit_priority_offset	70
 
 type					Dwarven Labourers
@@ -6082,7 +6081,7 @@ soldier					ered_bodyguard, 15, 0, 1.5
 officer                 dwarf_captain_early_flag
 officer                 dwarf_captain_early_flag
 mount_effect			horse +3, camel +2, elephant +1
-attributes				sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit, cannot_skirmish, crossbow
+attributes				sea_faring, hide_forest, very_hardy, can_withdraw, general_unit, free_upkeep_unit, cannot_skirmish, crossbow, mercenary_unit
 move_speed_mod			0.95
 formation				1.2, 1.2, 2.4, 2.4, 4, square
 stat_health				1, 6
@@ -6101,10 +6100,10 @@ stat_food				60, 300
 stat_cost				3, 1000, 320, 200, 200, 1000, 1, 100
 armour_ug_levels		5, 6, 7
 armour_ug_models		ered_bodyguard_upg, ered_bodyguard_upg, ered_bodyguard_upg
-ownership				hungary, slave
-era 0					hungary
-era 1					hungary
-era 2					hungary
+ownership				hungary, slave, portugal
+era 0					hungary, portugal
+era 1					hungary, portugal
+era 2					hungary, portugal
 recruit_priority_offset	70
 
 
@@ -8568,10 +8567,10 @@ stat_food		 		60, 300
 stat_cost				2, 1050, 340, 125, 125, 1050, 3, 105
 armour_ug_levels		2, 3, 4, 5
 armour_ug_models		avari_spear, avari_spear_upg, avari_spear_upg, avari_spear_upg2
-ownership				byzantium, slave, portugal
-era 0					byzantium, portugal
-era 1					byzantium, portugal
-era 2					byzantium, portugal
+ownership				byzantium, slave
+era 0					byzantium
+era 1					byzantium
+era 2					byzantium
 recruit_priority_offset	40
 
 type		 			Moriquendi Sentinels
@@ -9402,10 +9401,10 @@ stat_food               60, 300
 stat_cost               2, 810, 330, 125, 125, 810, 4, 78
 armour_ug_levels        2, 3
 armour_ug_models        mochaini_nobles, mochaini_nobles
-ownership				teutonic_order, slave, portugal
-era 0					teutonic_order, portugal
-era 1					teutonic_order, portugal
-era 2					teutonic_order, portugal
+ownership				teutonic_order, slave
+era 0					teutonic_order
+era 1					teutonic_order
+era 2					teutonic_order
 recruit_priority_offset	50
 
 
@@ -9955,10 +9954,10 @@ stat_food				60, 300
 stat_cost				1, 600, 250, 75, 75, 600, 4, 40
 armour_ug_levels		1, 2, 3
 armour_ug_models		dun_bersekers, dun_bersekers_upg, dun_bersekers_upg
-ownership				aztecs, slave, turks, portugal
-era 0					aztecs, portugal
-era 1					aztecs, portugal
-era 2					aztecs, portugal
+ownership				aztecs, slave, turks
+era 0					aztecs
+era 1					aztecs
+era 2					aztecs
 recruit_priority_offset	30
 
 type                    Dunlending Raiders			;Dunlending Raiders
@@ -10029,10 +10028,10 @@ stat_food				60, 300
 stat_cost				2, 1000, 380, 125, 125, 1000, 2, 100
 armour_ug_levels		2, 4
 armour_ug_models		wulfs_pikes, wulfs_pikes_upg
-ownership				aztecs, slave, turks, portugal
-era 0					aztecs, portugal
-era 1					aztecs, portugal
-era 2					aztecs, portugal
+ownership				aztecs, slave, turks
+era 0					aztecs
+era 1					aztecs
+era 2					aztecs
 recruit_priority_offset	50
 
 type					Wulfs Swordsmen			;Warband Blades
@@ -10210,10 +10209,10 @@ stat_food				60, 300
 stat_cost				2, 470, 235, 75, 75, 470, 3, 41
 armour_ug_levels		1, 2, 3
 armour_ug_models		dunland_raiders_upg, dunland_raiders_upg2, dunland_raiders_upg2
-ownership				aztecs, france, slave, russia, turks, portugal
-era 0					aztecs, portugal
-era 1					aztecs, portugal
-era 2					aztecs, portugal
+ownership				aztecs, france, slave, russia, turks
+era 0					aztecs
+era 1					aztecs
+era 2					aztecs
 recruit_priority_offset	40
 
 type					Mounted Warband			;Frekkalingir Harriers
@@ -10359,10 +10358,10 @@ stat_food				60, 300
 stat_cost				1, 600, 240, 125, 125, 600, 3, 50
 armour_ug_levels		1, 2, 3
 armour_ug_models		tribal_pikemen, tribal_pikemen
-ownership				aztecs, slave, normans, france, turks, portugal
-era 0					aztecs, portugal
-era 1					aztecs, portugal
-era 2					aztecs, portugal
+ownership				aztecs, slave, normans, france, turks
+era 0					aztecs
+era 1					aztecs
+era 2					aztecs
 recruit_priority_offset	30
 
 type					Wulfs Champions			;Heralds of the Twofold King
@@ -10886,10 +10885,10 @@ stat_food				60, 300
 stat_cost				1, 615, 215, 125, 125, 615, 5, 62
 armour_ug_levels		2, 3
 armour_ug_models		orc_maulers, orc_maulers
-ownership				england, poland, slave, portugal
-era 0					england, poland, portugal
-era 1					england, poland, portugal
-era 2					england, poland, portugal
+ownership				england, poland, slave
+era 0					england, poland
+era 1					england, poland
+era 2					england, poland
 recruit_priority_offset	30
 
 type					Olog-hai
@@ -12308,10 +12307,10 @@ stat_food				60, 300
 stat_cost				1, 650, 305, 125, 125, 650, 6, 62
 armour_ug_levels		1, 2, 3, 4
 armour_ug_models		snoworc_spear, snoworc_spear, snoworc_spear, snoworc_spear_upg
-ownership               gundabad, slave, portugal
-era 0                   gundabad, portugal
-era 1                   gundabad, portugal
-era 2                   gundabad, portugal
+ownership               gundabad, slave
+era 0                   gundabad
+era 1                   gundabad
+era 2                   gundabad
 recruit_priority_offset	30
 
 
@@ -13355,9 +13354,8 @@ voice_type				Heavy
 banner faction			main_infantry
 banner holy				crusade
 soldier					balrog_retinue, 5, 0, 100, 0.8
-officer					balrog
 mount_effect			horse +15, camel +15, elephant +25
-attributes				hide_improved_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, mercenary_unit, free_upkeep_unit
+attributes				very_hardy, can_withdraw, frighten_foot, frighten_mounted, mercenary_unit, free_upkeep_unit, general_unit
 move_speed_mod			0.9
 formation				4.0, 4.0, 7.0, 7.0, 1, horde
 stat_health				7, 7
@@ -13376,10 +13374,10 @@ stat_food				60, 300
 stat_cost				6, 2500, 800, 200, 200, 2500, 3, 250
 armour_ug_levels		7
 armour_ug_models		balrog_retinue
-ownership				hre, slave
-era 0					slave
-era 1					slave
-era 2					slave
+ownership				hre, slave, portugal
+era 0					slave, portugal
+era 1					slave, portugal
+era 2					slave, portugal
 
 
 ;#################################################################
@@ -14191,10 +14189,10 @@ stat_food				60, 300
 stat_cost				1, 310, 155, 75, 75, 310, 5, 31
 armour_ug_levels		0, 1, 2, 3
 armour_ug_models		corsairs, corsairs_upg, corsairs_upg, corsairs_upg
-ownership				russia, slave, turks, portugal
-era 0					russia, portugal
-era 1					russia, portugal
-era 2					russia, portugal
+ownership				russia, slave, turks
+era 0					russia
+era 1					russia
+era 2					russia
 recruit_priority_offset	20
 
 
@@ -14229,10 +14227,10 @@ stat_food				60, 300
 stat_cost				1, 360, 170, 75, 75, 360, 5, 36
 armour_ug_levels		0, 1, 2, 3
 armour_ug_models		corsair_archers, corsair_archers_upg, corsair_archers_upg, corsair_archers_upg
-ownership				russia, slave, portugal
-era 0					russia, portugal
-era 1					russia, portugal
-era 2					russia, portugal
+ownership				russia, slave
+era 0					russia
+era 1					russia
+era 2					russia
 recruit_priority_offset	20
 
 type             Azrazair Crossbowmen
@@ -14265,10 +14263,10 @@ stat_food        60, 300
 stat_cost        1, 650, 280, 125, 125, 630, 4, 63
 armour_ug_levels 1, 2, 3, 4
 armour_ug_models azrazair_crossbowmen, azrazair_crossbowmen, azrazair_crossbowmen
-ownership        russia, slave, turks, portugal
-era 0            russia, portugal
-era 1            russia, portugal
-era 2            russia, portugal
+ownership        russia, slave, turks
+era 0            russia
+era 1            russia
+era 2            russia
 recruit_priority_offset    30
 
 
@@ -14444,10 +14442,10 @@ stat_food	 			60, 300
 stat_cost				1, 630, 260, 125, 125, 630, 4, 63
 armour_ug_levels 		2, 3, 4, 5
 armour_ug_models 		rozadan_footmen, rozadan_footmen_upg, rozadan_footmen_upg2
-ownership				russia, slave, portugal
-era 0					russia, portugal
-era 1					russia, portugal
-era 2					russia, portugal
+ownership				russia, slave
+era 0					russia
+era 1					russia
+era 2					russia
 recruit_priority_offset	30
 
 type					Rozadan Halberdiers
@@ -16084,10 +16082,10 @@ stat_food				60, 300
 stat_cost               3, 1000, 275, 75, 75, 1000, 1, 100
 armour_ug_levels 		3
 armour_ug_models 		khand_heavy_horse_archers
-ownership				khand, slave, portugal
-era 0					khand, portugal
-era 1					khand, portugal
-era 2					khand, portugal
+ownership				khand, slave
+era 0					khand
+era 1					khand
+era 2					khand
 recruit_priority_offset	70
 
 type					Steppe Tribesmen
