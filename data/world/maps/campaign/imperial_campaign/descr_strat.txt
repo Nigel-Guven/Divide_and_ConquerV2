@@ -4425,6 +4425,42 @@ army
 unit		Galadhrim Archers			exp 4 armour 1 weapon_lvl 1
 unit		Lorien Archers				exp 1 armour 0 weapon_lvl 0
 
+character	Morlas, named character, male, age 21, x 267, y 315, portrait Nurwe, battle_model avari_general
+traits		Morlas 1, CustomBG 1, Hero 1, ElvenRace 1, Avari 1, HeroAbilityElf 1, Brave 2, Handsome 1, GoodCommander 2, GoodDefender 2, Intelligent 1, Loyal 2, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1, TacticalSkill 3, NaturalMilitarySkill 1
+ancillaries	avari_armor
+army
+unit		Avari Shadows 			exp 1 armour 1 weapon_lvl 0
+unit		Avari Shadows 			exp 1 armour 0 weapon_lvl 0
+unit		Avari Shadows 			exp 1 armour 0 weapon_lvl 0
+unit		Avari Warriors			exp 1 armour 0 weapon_lvl 1
+unit		Avari Warriors			exp 1 armour 0 weapon_lvl 1
+unit		Avari Spearmen						exp 1 armour 0 weapon_lvl 0
+unit		Avari Spearmen						exp 1 armour 0 weapon_lvl 0
+
+character	Fundar, named character, male, age 52, x 254, y 309, portrait Grain, battle_model ered_general,  hero_ability DWARVES
+traits		Fundar 1, CustomBG 1, Hero 1, DwarvenRace 1, Longbeard 1, HeroAbilityDwarf 1, BattleChivalryGood 2, GoodCommander 2, HaleAndHearty 1, Loyal 2, LoyaltyStarter 1, PietyStarter 1
+ancillaries	troops_erebor, balin_axe
+army
+unit		Sons of the Fallen				    exp 3 armour 2 weapon_lvl 1
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+
+character	Emeric, named character, male, age 35, x 265, y 335, portrait Eomund, battle_model rohan_general, hero_ability CAPTAIN
+traits		Emeric 1, CustomBG 1, Hero 1, GoodManRace 1, Rohirrim 1, HeroAbilityCaptain 1, RenownLegacy 2, GoodCommander 1, GoodDefender 1, LoyaltyStarter 1, PietyStarter 1, StrategyChivalryGood 1
+army
+unit		Eored Lancers				    exp 3 armour 1 weapon_lvl 1
+unit		Eored Lancers				    exp 3 armour 1 weapon_lvl 1
+unit		Eored Lancers				    exp 3 armour 1 weapon_lvl 1
+
+character	Illyrio, named character, male, age 22, x 253, y 323, portrait Alatar, battle_model alatar, hero_ability ALATAR
+traits		Illyrio 1, CustomBG 1, Hero 1, HeroAbilityAlatar 1, MaiaRace 1, Brave 1, Energetic 1, GoodCommander 3, GoodDefender 1, Loyal 2, LoyaltyStarter 1, PietyStarter 1, StrategicSkill 1
+army
+unit		Orocarni Warriors			exp 5 armour 1 weapon_lvl 1
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+unit		Dwarven Travellers				exp 1 armour 0 weapon_lvl 0
+
 character	Cofniben, spy, male, age 16, x 272, y 325
 traits		ElvenRace 1, NandorSpy 1, SpySkill 4, NaturalSpySkill 1
 
@@ -5248,6 +5284,12 @@ unit		Orc Band				exp 1 armour 0 weapon_lvl 0
 unit		Orc Band				exp 1 armour 0 weapon_lvl 0
 unit		Orc Scouts				exp 0 armour 0 weapon_lvl 0
 unit		Orc Scouts				exp 0 armour 0 weapon_lvl 0
+
+character	Annatar, named character, male, leader, x 375, y 226, portrait sauron, battle_model sauron_general, hero_ability SAURON
+traits		CustomBG 1, Hero 1, MaiaRace 1, HeroAbilitySauron 1, FearGeneral 1, BattleFear 6, DeceiverVirtue 3, GoodAttacker 4, GoodDefender 3, GoodCommander 4, HaleAndHearty 3, NightBattleCapable 1, InspiringSpeaker 3, Brave 4, SauronEpithet 1
+ancillaries	king_mordor, sauron_mace
+army
+unit		Sauron					exp 1 armour 0 weapon_lvl 0
 
 character	MouthOfSauron, diplomat, male, age 31, x 348, y 248, portrait MouthOfSauron
 traits		MouthOfSauron 1, Hero 1, NumenoreanRace 1, GoodDiplomat 5, PersonalSecurityLevel 2, Secretive 4, AgentPiety 1

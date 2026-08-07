@@ -161,6 +161,10 @@ strat_model		celeborn	  ; 3 (Custom)
 strat_model		mirk_king    ; 4 (Custom)
 strat_model		legolas	     ; 5 (Custom)
 strat_model		mirk_general	 ; 6 (Custom)
+strat_model		morlas	 ; 7 (Custom)
+strat_model		fundar	 ; 8 (Custom)
+strat_model		emeric	 ; 9 (Custom)
+strat_model		illyrio	 ; 10 (Custom)
 battle_model		lorien_general
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 
