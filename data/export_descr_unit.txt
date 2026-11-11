@@ -5845,10 +5845,10 @@ stat_food				60, 300
 stat_cost				3, 1410, 620, 125, 125, 1410, 2, 141
 armour_ug_levels		4, 5, 6, 7
 armour_ug_models		dwarven_fallen, dwarven_fallen, dwarven_fallen, dwarven_fallen
-ownership				moors, norway, hungary, slave, normans, ireland
-era 0					moors, norway, hungary, slave, ireland
-era 1					moors, norway, hungary, slave, ireland
-era 2					moors, norway, hungary, slave, ireland
+ownership				moors, norway, hungary, slave, normans, ireland, russia
+era 0					moors, norway, hungary, slave, ireland, russia
+era 1					moors, norway, hungary, slave, ireland, russia
+era 2					moors, norway, hungary, slave, ireland, russia
 recruit_priority_offset	50
 
 type					Blacklock Engineers
@@ -5881,10 +5881,10 @@ stat_food				60, 300
 stat_cost				3, 1110, 480, 125, 125, 1110, 3, 110
 armour_ug_levels		4, 5, 6, 7
 armour_ug_models		dorwin_maa77, dorwin_maa77, dorwin_maa77, dorwin_maa77
-ownership				moors, slave, norway, khand, hungary, ireland
-era 0					moors, ireland
-era 1					moors, ireland
-era 2					moors, ireland
+ownership				moors, slave, norway, khand, hungary, ireland, russia
+era 0					moors, ireland, russia
+era 1					moors, ireland, russia
+era 2					moors, ireland, russia
 recruit_priority_offset	40
 
 type					Orocarni Warriors
@@ -8530,10 +8530,10 @@ stat_food		 		60, 300
 stat_cost				2, 1050, 340, 125, 125, 1050, 3, 105
 armour_ug_levels		2, 3, 4, 5
 armour_ug_models		dorwin_maa209, dorwin_maa209_upg, dorwin_maa209_upg, dorwin_maa209_upg2
-ownership				byzantium, slave, ireland
-era 0					byzantium, ireland
-era 1					byzantium, ireland
-era 2					byzantium, ireland
+ownership				byzantium, slave, ireland, russia
+era 0					byzantium, ireland, russia
+era 1					byzantium, ireland, russia
+era 2					byzantium, ireland, russia
 recruit_priority_offset	40
 
 type					Avari Spearmen
@@ -8567,10 +8567,10 @@ stat_food		 		60, 300
 stat_cost				2, 1050, 340, 125, 125, 1050, 3, 105
 armour_ug_levels		2, 3, 4, 5
 armour_ug_models		avari_spear, avari_spear_upg, avari_spear_upg, avari_spear_upg2
-ownership				byzantium, slave, ireland
-era 0					byzantium, ireland
-era 1					byzantium, ireland
-era 2					byzantium, ireland
+ownership				byzantium, slave, ireland, russia
+era 0					byzantium, ireland, russia
+era 1					byzantium, ireland, russia
+era 2					byzantium, ireland, russia
 recruit_priority_offset	40
 
 type		 			Moriquendi Sentinels
@@ -8677,10 +8677,10 @@ stat_food				60, 300
 stat_cost				3, 1100, 340, 125, 125, 1100, 3, 110
 armour_ug_levels		3, 4, 5
 armour_ug_models		dorwin_maa211, dorwin_maa211, dorwin_maa211
-ownership				byzantium, slave, ireland
-era 0					byzantium, ireland
-era 1					byzantium, ireland
-era 2					byzantium, ireland
+ownership				byzantium, slave, ireland, russia
+era 0					byzantium, ireland, russia
+era 1					byzantium, ireland, russia
+era 2					byzantium, ireland, russia
 recruit_priority_offset	40
 
 
@@ -8715,10 +8715,10 @@ stat_food				60, 300
 stat_cost				3, 1125, 390, 125, 125, 1125, 3, 112
 armour_ug_levels		2, 3, 4, 5
 armour_ug_models		dorwin_maa211_mounted, dorwin_maa211_mounted_upg, dorwin_maa211_mounted_upg, dorwin_maa211_mounted_upg2
-ownership				byzantium, slave, ireland
-era 0					byzantium, ireland
-era 1					byzantium, ireland
-era 2					byzantium, ireland
+ownership				byzantium, slave, ireland, russia
+era 0					byzantium, ireland, russia
+era 1					byzantium, ireland, russia
+era 2					byzantium, ireland, russia
 recruit_priority_offset	50
 
 type					Thorn Crossbowmen
@@ -9288,9 +9288,9 @@ stat_cost				1, 345, 190, 65, 155, 345, 4, 31
 armour_ug_levels		1, 2, 3
 armour_ug_models		greyflood_raiders, greyflood_raiders, greyflood_raiders
 ownership				slave, teutonic_order, turks, aztecs, russia
-era 0					slave, teutonic_order
-era 1					slave, teutonic_order
-era 2					slave, teutonic_order
+era 0					slave, teutonic_order, russia
+era 1					slave, teutonic_order, russia
+era 2					slave, teutonic_order, russia
 recruit_priority_offset	30
 
 
@@ -10358,10 +10358,10 @@ stat_food				60, 300
 stat_cost				1, 600, 240, 125, 125, 600, 3, 50
 armour_ug_levels		1, 2, 3
 armour_ug_models		tribal_pikemen, tribal_pikemen
-ownership				aztecs, slave, normans, france, turks
-era 0					aztecs
-era 1					aztecs
-era 2					aztecs
+ownership				aztecs, slave, normans, france, turks, russia
+era 0					aztecs, russia
+era 1					aztecs, russia
+era 2					aztecs, russia
 recruit_priority_offset	30
 
 type					Wulfs Champions			;Heralds of the Twofold King
@@ -12307,10 +12307,10 @@ stat_food				60, 300
 stat_cost				1, 650, 305, 125, 125, 650, 6, 62
 armour_ug_levels		1, 2, 3, 4
 armour_ug_models		snoworc_spear, snoworc_spear, snoworc_spear, snoworc_spear_upg
-ownership               gundabad, slave
-era 0                   gundabad
-era 1                   gundabad
-era 2                   gundabad
+ownership               gundabad, slave, russia
+era 0                   gundabad, russia
+era 1                   gundabad, russia
+era 2                   gundabad, russia
 recruit_priority_offset	30
 
 
@@ -14113,10 +14113,10 @@ stat_food				60, 300
 stat_cost				3, 1300, 0, 125, 125, 1500, 1, 150
 armour_ug_levels		3, 4
 armour_ug_models		barrow_wight_king
-ownership				slave, portugal, england
-era 0					portugal
-era 1					portugal
-era 2					portugal
+ownership				slave, portugal, england, russia
+era 0					portugal, russia
+era 1					portugal, russia
+era 2					portugal, russia
 recruit_priority_offset			100
 
 
@@ -14870,10 +14870,10 @@ stat_food				60, 300
 stat_cost				1, 650, 250, 75, 75, 650, 4, 65
 armour_ug_levels		1, 2, 3
 armour_ug_models		southron_spearmen, southron_spearmen_upg, southron_spearmen_upg
-ownership				spain, slave, turks, england
-era 0					spain
-era 1					spain
-era 2					spain
+ownership				spain, slave, turks, england, russia
+era 0					spain, russia
+era 1					spain, russia
+era 2					spain, russia
 recruit_priority_offset	30
 
 
@@ -14946,10 +14946,10 @@ stat_food				60, 300
 stat_cost				1, 630, 250, 125, 125, 630, 4, 63
 armour_ug_levels		1, 2, 3
 armour_ug_models		southron_archers, southron_archers_upg, southron_archers_upg
-ownership				spain, slave, turks
-era 0					spain
-era 1					spain
-era 2					spain
+ownership				spain, slave, turks, russia
+era 0					spain, russia
+era 1					spain, russia
+era 2					spain, russia
 recruit_priority_offset	30
 
 
@@ -15281,10 +15281,10 @@ stat_food				60, 300
 stat_cost				3, 980, 390, 125, 125, 980, 3, 105
 armour_ug_levels		2, 3
 armour_ug_models		half_men, half_men_upg
-ownership				spain, slave, turks
-era 0					spain
-era 1					spain
-era 2					spain
+ownership				spain, slave, turks, russia
+era 0					spain, russia
+era 1					spain, russia
+era 2					spain, russia
 recruit_priority_offset	40
 
 type					Troll-men Hunters
@@ -15902,9 +15902,9 @@ stat_cost				2, 790, 330, 125, 125, 790, 4, 79
 armour_ug_levels		2, 3, 4
 armour_ug_models		rhunmg, rhunmg_upg, rhunmg_upg
 ownership				venice, slave, turks, russia
-era 0					venice
-era 1					venice
-era 2					venice
+era 0					venice, russia
+era 1					venice, russia
+era 2					venice, russia
 recruit_priority_offset	40
 
 
@@ -16155,10 +16155,10 @@ stat_food				60, 300
 stat_cost				1, 355, 150, 75, 75, 355, 5, 31
 armour_ug_levels		0, 1, 2, 3
 armour_ug_models		variag_archer, variag_archer, variag_archer
-ownership				khand, slave, spain, venice, england, turks
-era 0					khand, slave
-era 1					khand, slave
-era 2					khand, slave
+ownership				khand, slave, spain, venice, england, turks, russia
+era 0					khand, slave, russia
+era 1					khand, slave, russia
+era 2					khand, slave, russia
 recruit_priority_offset	20
 
 
@@ -16342,9 +16342,9 @@ stat_cost               2, 1050, 320, 125, 125, 1050, 4, 105
 armour_ug_levels 		2, 3
 armour_ug_models 		khand_horse_archers, khand_horse_archers
 ownership				khand, slave, spain, venice, england, turks, russia
-era 0					khand
-era 1					khand
-era 2					khand
+era 0					khand, russia
+era 1					khand, russia
+era 2					khand, russia
 recruit_priority_offset	60
 
 type					Warlords Kataphract Archers
@@ -16915,10 +16915,10 @@ stat_food				60, 300
 stat_cost				1, 510, 205, 75, 75, 510, 5, 54
 armour_ug_levels		0, 1, 2, 3
 armour_ug_models		rhovanion_spearmen, rhovanion_spearmen, rhovanion_spearmen_upg, rhovanion_spearmen_upg
-ownership				slave, scotland, normans, ireland
-era 0					slave, ireland
-era 1					slave, ireland
-era 2					slave, ireland
+ownership				slave, scotland, normans, ireland, russia
+era 0					slave, ireland, russia
+era 1					slave, ireland, russia
+era 2					slave, ireland, russia
 recruit_priority_offset	20
 
 
@@ -17163,7 +17163,7 @@ stat_food	 			60, 300
 stat_cost				1, 1150, 395, 125, 125, 1150, 4, 100
 armour_ug_levels		3, 4
 armour_ug_models		dorwin_maa218, dorwin_maa218
-ownership				slave, normans, ireland
+ownership				slave, normans, ireland, russia
 recruit_priority_offset	40
 
 type					Privateer Cavalry
@@ -17195,7 +17195,7 @@ stat_food				60, 300
 stat_cost				2, 1260, 425, 125, 125, 1260, 3, 126
 armour_ug_levels		3, 4
 armour_ug_models		dorwin_maa219, dorwin_maa219
-ownership				slave, normans, byzantium, ireland
+ownership				slave, normans, byzantium, ireland, russia
 recruit_priority_offset	40
 
 
@@ -17229,9 +17229,9 @@ stat_cost               1, 650, 235, 125, 125, 650, 4, 63
 armour_ug_levels        2, 3
 armour_ug_models        saralainn, saralainn
 ownership				aztecs, teutonic_order, slave, normans, turks, russia, ireland
-era 0					aztecs, teutonic_order, slave, ireland
-era 1					aztecs, teutonic_order, slave, ireland
-era 2					aztecs, teutonic_order, slave, ireland
+era 0					aztecs, teutonic_order, slave, ireland, russia
+era 1					aztecs, teutonic_order, slave, ireland, russia
+era 2					aztecs, teutonic_order, slave, ireland, russia
 recruit_priority_offset	30
 
 type					Druedain Hunters
@@ -17263,10 +17263,10 @@ stat_food				60, 300
 stat_cost				2, 550, 190, 75, 75, 550, 2, 45
 armour_ug_levels		0, 1, 2, 3
 armour_ug_models		druadan_archers, druadan_archers, druadan_archers, druadan_archers
-ownership				aztecs, teutonic_order, slave, ireland
-era 0					aztecs, teutonic_order, slave, ireland
-era 1					aztecs, teutonic_order, slave, ireland
-era 2					aztecs, teutonic_order, slave, ireland
+ownership				aztecs, teutonic_order, slave, ireland, russia
+era 0					aztecs, teutonic_order, slave, ireland, russia
+era 1					aztecs, teutonic_order, slave, ireland, russia
+era 2					aztecs, teutonic_order, slave, ireland, russia
 recruit_priority_offset	40
 
 ;#################################################################

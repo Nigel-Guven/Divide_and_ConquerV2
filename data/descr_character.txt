@@ -300,6 +300,12 @@ strat_model		umbar_general ; 0 (Default)
 strat_model		umbar_general ; 1 (Heir)
 strat_model		umbar_leader  ; 2 (Leader)
 strat_model		gimilkhad  ; 3 (Leader)
+strat_model		maleficarus  ; 4 (Custom)
+strat_model		azazel  ; 5 (Custom)
+strat_model		razzan  ; 6 (Custom)
+strat_model		erkenthain  ; 7 (Custom)
+strat_model		bograt  ; 8 (Custom)
+strat_model		khanesh  ; 9 (Custom)
 battle_model		umbar_general
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 

@@ -6144,9 +6144,8 @@ character_record	Galadhnis, female, age 195, dead 1570, never_a_leader
 character_record	Zirabel, female, age 41, alive, never_a_leader
 character_record	Inzilbeth, female, age 18, alive, never_a_leader
 character_record	Signy, female, age 18, alive, never_a_leader
-character_record	Aphanuzir, male, age 10, alive, never_a_leader
 
-relative 		Agandaur, Zirabel, Hunvorn, Inzilbeth, Aphanuzir, end
+relative 		Agandaur, Zirabel, Hunvorn, Inzilbeth, end
 relative 		Hunvorn, Galadhnis, end
 relative 		Scyld, Inzilbeth, end
 relative 		Morholt, Signy, end
@@ -6587,7 +6586,73 @@ army
 unit		Beruthiels Rangers			exp 1 armour 0 weapon_lvl 0
 unit		Abrazanim Nardubawib			exp 0 armour 0 weapon_lvl 0
 
+character	Razzan, named character, male, age 16, x 273, y 109, portrait Razzan, hero_ability NUMENOR, battle_model umbar_captain
+traits		Razzan 1, BadManRace 1, WainriderTribe 1, AridWarrior 1, GoodCommander 1, GoodDefender 1, Just 1, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1, GoodTrader 1, GoodCavalryGeneral 1, NaturalManagementSkill 2
+army
+unit		Ar-Pharazons Faithful			exp 1 armour 0 weapon_lvl 0
+unit		Azrazair Raiders			exp 1 armour 0 weapon_lvl 0
+unit		Azrazair Raiders			exp 1 armour 0 weapon_lvl 0
+unit		Azrazair Raiders			exp 1 armour 0 weapon_lvl 0
+
+character	Azazel, named character, male, age 16, x 214, y 59, portrait Azazel, battle_model avari_general
+traits		Azazel 1, CustomBG 1, Hero 1, ElvenRace 1, Avari 1, HeroAbilityElf 1, Brave 2, Handsome 1, GoodCommander 2, GoodDefender 2, Intelligent 1, Loyal 2, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1, TacticalSkill 3, NaturalMilitarySkill 1
+army
+unit		Avari Shadows			exp 1 armour 0 weapon_lvl 0
+unit		Avari Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Avari Warriors			exp 1 armour 0 weapon_lvl 0
+unit		Avari Spearmen			exp 1 armour 0 weapon_lvl 0
+unit		Avari Naharim			exp 1 armour 0 weapon_lvl 0
+
+character	Maleficarus, named character, male, age 16, x 214, y 58, portrait Maleficarus, hero_ability THE_VOICE, battle_model saruman_manycolours
+traits		CustomBG 1, Hero 1, MaiaRace 1, HeroAbilitySaruman 1, GoodCommander 3, FearGeneral 1, Maleficarus 1, NaturalManagementSkill 2, NaturalMilitarySkill 2, Intelligent 2
+army
+unit		Avari Naharim			exp 0 armour 0 weapon_lvl 0
+unit		Rozadan Bowmen			exp 0 armour 0 weapon_lvl 0
+unit		Rozadan Bowmen			exp 0 armour 0 weapon_lvl 0
+
+character	Erkenthain, named character, male, age 16, x 283, y 62, portrait Erkenthain, hero_ability CHARGE, battle_model rohan_general
+traits		Erkenthain 1, CustomBG 1, Hero 1, GoodManRace 1, Rohirrim 1, HeroAbilityCaptain 1, GoodAttacker 1, GoodCavalryGeneral 1, GoodCommander 1, LoyaltyStarter 1, PietyStarter 1
+army
+unit		Avari Naharim			exp 2 armour 1 weapon_lvl 1
+unit		Adunaim Armsmen			exp 0 armour 0 weapon_lvl 0
+unit		Adunaim Armsmen			exp 0 armour 0 weapon_lvl 0
+
+character	Bograt, named character, male, age 16, x 275, y 106, portrait Bograt, battle_model ugluk
+traits		Bograt 1, CustomBG 1, Hero 1, UrukHaiRace 1, HeroAbilityUrukHai 1, BattleChivalryEvil 2, Bloodthirsty 2, GoodAttacker 1, GoodCommander 2, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1
+army
+unit		Snow-Orc Spearmen			exp 3 armour 1 weapon_lvl 1
+unit		Snow-Orc Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Snow-Orc Spearmen			exp 0 armour 0 weapon_lvl 0
+unit		Snow-Orc Spearmen			exp 0 armour 0 weapon_lvl 0
+
+character	Khanesh, named character, male, age 16, x 224, y 52, portrait Khanesh, hero_ability BALROG, battle_model balrog_general
+traits		Khanesh 1, CustomBG 1, Hero 1, MaiaRace 1, FearGeneral 1, HeroAbilityBalrog 1, BattleFear 6, LoyaltyStarter 1, NightBattleCapable 1, PietyStarter 1, GoodCommander 3
+army
+unit		Balrog			exp 9 armour 2 weapon_lvl 1
+unit		Abrazanim Nardubawib			exp 0 armour 0 weapon_lvl 0
+unit		Abrazanim Nardubawib			exp 0 armour 0 weapon_lvl 0
+unit		Troll-men Warriors			exp 0 armour 0 weapon_lvl 0
+unit		Troll-men Warriors			exp 0 armour 0 weapon_lvl 0
+unit		Rebel Barrow Wights			exp 0 armour 0 weapon_lvl 0
+
+
 character	Sakalthor, admiral, male, age 34, x  207, y 59, label bn_army_4
+traits		Hero 1, CheckAdmiral 1, FamousPirate 1, Sailor 5, AIBoostAdmiral 1
+ancillaries naval_navigator, numenorean_shipwright, naval_scorpion
+army
+unit		Adunaim Ship			exp 2 armour 0 weapon_lvl 0
+unit		Adunaim Boat			exp 1 armour 0 weapon_lvl 0
+unit		Adunaim Boat			exp 1 armour 0 weapon_lvl 0
+
+character	Bahadir, admiral, male, age 32, x  209, y 61
+traits		Hero 1, CheckAdmiral 1, FamousPirate 1, Sailor 5, AIBoostAdmiral 1
+ancillaries naval_navigator, numenorean_shipwright, naval_scorpion
+army
+unit		Adunaim Ship			exp 2 armour 0 weapon_lvl 0
+unit		Adunaim Boat			exp 1 armour 0 weapon_lvl 0
+unit		Adunaim Boat			exp 1 armour 0 weapon_lvl 0
+
+character	Castaher, admiral, male, age 28, x  213, y 62
 traits		Hero 1, CheckAdmiral 1, FamousPirate 1, Sailor 5, AIBoostAdmiral 1
 ancillaries naval_navigator, numenorean_shipwright, naval_scorpion
 army

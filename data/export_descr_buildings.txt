@@ -176,6 +176,7 @@ building core_castle_building
 				recruit_pool "Rivermen"  1   0.1   1  0  requires factions { scotland, }  and region_religion northmen 15
 				recruit_pool "Azrazair Raiders"  1   0.12   1  0  requires factions { russia, }  and region_religion kings 5 and hidden_resource coast
 				recruit_pool "Azrazair Archers"  1   0.12   1  0  requires factions { russia, }  and region_religion kings 5 and hidden_resource coast
+				recruit_pool "Azrazair Archers"  1   0.12   1  0  requires factions { russia, }  and region_religion kings 5 and hidden_resource coast
 				recruit_pool "Haradrim Spearmen"  1   0.12   1  0  requires factions { spain, }  and region_religion orthodox 15
 				recruit_pool "Haradrim Archers"  1   0.12   1  0  requires factions { spain, }  and region_religion orthodox 15
 				recruit_pool "Daritai Clansmen"  1   0.12   1  0  requires factions { venice, }  and region_religion orthodox 15
@@ -2040,6 +2041,13 @@ building barracks
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 
 				recruit_pool "Southron Warband"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -2207,6 +2215,19 @@ building barracks
 				recruit_pool "Abrazanim Nardutarik"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Abrazanim Narduzagar"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.07   1  0  requires factions { russia, } and hidden_resource Harad
+				recruit_pool "Troll-men Warriors"  1   0.07   1  0  requires factions { russia, } and hidden_resource Harad
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, } and hidden_resource Enedwaith
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				
 
 				recruit_pool "Southron Warband"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -2408,6 +2429,15 @@ building barracks
 				recruit_pool "Adunaim Armsmen"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75 and hidden_resource coast
 				recruit_pool "Ar-Pharazons Faithful"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 
 				recruit_pool "Southron Warband"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -2635,6 +2665,15 @@ building barracks
 				recruit_pool "Adunaim Armsmen"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75 and hidden_resource coast
 				recruit_pool "Ar-Pharazons Faithful"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 
 				recruit_pool "Southron Warband"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -2863,6 +2902,15 @@ building barracks
 				recruit_pool "Adunaim Armsmen"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75 and hidden_resource coast
 				recruit_pool "Ar-Pharazons Faithful"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Sons of the Fallen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 75
 
 				recruit_pool "Southron Warband"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -3011,6 +3059,13 @@ building castle_barracks
 				recruit_pool "Rozadan Footmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Rozadan Halberdiers"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Warriors"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Sons of the Fallen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 75
 
 				recruit_pool "Southron Warband"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -3181,6 +3236,15 @@ building castle_barracks
 				recruit_pool "Abrazanim Nardutarik"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Abrazanim Narduzagar"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 
 				recruit_pool "Southron Warband"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -3355,6 +3419,16 @@ building castle_barracks
 				recruit_pool "Adunaim Armsmen"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75 and hidden_resource coast
 				recruit_pool "Ar-Pharazons Faithful"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Sons of the Fallen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 75
 
 				recruit_pool "Southron Warband"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -3597,6 +3671,16 @@ building castle_barracks
 				recruit_pool "Adunaim Armsmen"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75 and hidden_resource coast
 				recruit_pool "Ar-Pharazons Faithful"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 75
 				recruit_pool "Rhudaur Savages"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Troll-men Warriors"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Snow-Orc Spearmen"  1   0.08   1  0  requires factions { russia, } and hidden_resource Rhudaur
+				recruit_pool "Druedain Hunters"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Saralainn Mercenaries"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Privateer Axemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Rhovanion Spearmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Warband"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Dunlending Pikemen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Mordag Fishermen"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Enedwaith
+				recruit_pool "Sons of the Fallen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 75
 
 				recruit_pool "Southron Warband"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
 				recruit_pool "Southron Pikemen"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 25
@@ -4152,6 +4236,8 @@ building missiles
 
 				recruit_pool "Rozadan Bowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Crossbowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 
 				recruit_pool "Southron Archers"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 33
 
@@ -4234,6 +4320,8 @@ building missiles
 
 				recruit_pool "Rozadan Bowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Crossbowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 				recruit_pool "Abrazanim Nardubawib"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Beruthiels Rangers"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 50 and hidden_resource forest or hidden_resource barren
 
@@ -4332,6 +4420,8 @@ building missiles
 				recruit_pool "Rozadan Bowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Crossbowmen"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 				recruit_pool "Abrazanim Nardubawib"  1   0.09   2  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 				recruit_pool "Beruthiels Rangers"  1   0.07   1  0  requires factions { russia, }  and region_religion kings 50 and hidden_resource forest or hidden_resource barren
 
 				recruit_pool "Southron Archers"  1   0.1   2  0  requires factions { spain, }  and region_religion orthodox 33
@@ -4404,6 +4494,8 @@ building c_missiles
 
 				recruit_pool "Rozadan Bowmen"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 25
 				recruit_pool "Azrazair Crossbowmen"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 
 				recruit_pool "Southron Archers"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 33
 
@@ -4490,6 +4582,8 @@ building c_missiles
 				recruit_pool "Azrazair Crossbowmen"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 				recruit_pool "Abrazanim Nardubawib"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Beruthiels Rangers"  1   0.075   1  0  requires factions { russia, }  and region_religion kings 50 and hidden_resource forest or hidden_resource barren
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 
 				recruit_pool "Southron Archers"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 33
 				recruit_pool "Hasharii Shadows"  1   0.112   2  0  requires factions { spain, }  and event_counter hasharii_join 1 and region_religion orthodox 50
@@ -4585,6 +4679,8 @@ building c_missiles
 				recruit_pool "Azrazair Crossbowmen"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 15 and hidden_resource coast
 				recruit_pool "Abrazanim Nardubawib"  1   0.095   2  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Beruthiels Rangers"  1   0.075   1  0  requires factions { russia, }  and region_religion kings 50 and hidden_resource forest or hidden_resource barren
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 
 				recruit_pool "Southron Archers"  1   0.112   2  0  requires factions { spain, }  and region_religion orthodox 33
 				recruit_pool "Hasharii Shadows"  1   0.112   2  0  requires factions { spain, }  and event_counter hasharii_join 1 and region_religion orthodox 50
@@ -7657,7 +7753,7 @@ building temple_catholic
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				pope_disapproval 1
-				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, russia, } and resource slaves
 				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, } 
 				population_growth_bonus bonus 2 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
@@ -7678,9 +7774,9 @@ building temple_catholic
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				happiness_bonus bonus 2
-				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, russia, }  and resource slaves
 				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, } 
-				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, russia, }
 				retrain_cost_bonus bonus 1
 				pope_disapproval 1 
 				population_growth_bonus bonus 3 requires factions { england, france, hre, gundabad, portugal, poland, }
@@ -7731,9 +7827,9 @@ building temple_c_catholic
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				pope_disapproval 1
-				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Rebel Barrow Wights"  1   0.02   1  1  requires factions { portugal, russia, }  and resource slaves
 				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, }
-				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, russia, }
 				population_growth_bonus bonus 2 requires factions { england, france, hre, gundabad, portugal, poland, }
 			}
 			material wooden
@@ -7753,9 +7849,9 @@ building temple_c_catholic
 				religion_level bonus 1 requires factions { england, france, hre, gundabad, portugal, } and hidden_resource mountains
 				religion_level bonus 1 requires factions { poland, } and hidden_resource forest
 				happiness_bonus bonus 2
-				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, }  and resource slaves
+				recruit_pool "Rebel Barrow Wights"  1   0.04   1  1  requires factions { portugal, russia, }  and resource slaves
 				recruit_pool "Orc Maulers"  1   0.02   1  1  requires factions { portugal, }
-				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, }
+				recruit_pool "Avari Spearmen"  1   0.02   1  1  requires factions { portugal, russia, }
 				retrain_cost_bonus bonus 1
 				pope_disapproval 1
 				population_growth_bonus bonus 3 requires factions { england, france, hre, gundabad, portugal, poland, }
@@ -13266,6 +13362,8 @@ building professional_military
 				recruit_pool "Azrazair Warriors"  0  0.1  0.999  0  requires factions { russia, } and not hidden_resource coast
 				recruit_pool "Adunaim Armsmen"  0  0.1  0.999  0  requires factions { russia, } and not hidden_resource coast
 				recruit_pool "Azrazair Crossbowmen"  0  0.1  0.999  0  requires factions { russia, } and not hidden_resource coast
+				recruit_pool "Southron Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
+				recruit_pool "Steppe Archers"  1   0.09   2  0  requires factions { russia, }  and hidden_resource Harad
 				recruit_pool "Beruthiels Rangers"  0  0.1  0.999  0  requires factions { russia, } and not hidden_resource forest and not hidden_resource barren
 				
 				recruit_pool "Tir Croicoill Cosantoiri"  0  0.1  0.999  0  requires factions { teutonic_order, } and event_counter enedwaith_new_dawn 1
@@ -13303,7 +13401,7 @@ building professional_military
 
 				recruit_pool "Guardians of Carn Dum"  0  0.1  0.999  0  requires factions { portugal, } and not hidden_resource Angmar
 				recruit_pool "Darkblades"  0  0.1  0.999  0  requires factions { portugal, } and not hidden_resource frozenlands
-				recruit_pool "Rebel Barrow Wights"  0  0.1  0.999  0  requires factions { portugal, } and not resource slaves
+				recruit_pool "Rebel Barrow Wights"  0  0.1  0.999  0  requires factions { portugal, russia, } and not resource slaves
 
 				recruit_pool "Meduseld Doorwards"  0  0.1  0.999  0  requires factions { milan, } and not hidden_resource Rohan
 				recruit_pool "Riddermark Axemen"  0  0.1  0.999  0  requires factions { milan, } and not hidden_resource Enedwaith and not hidden_resource Rohan
@@ -13389,7 +13487,7 @@ building hinterland_downs
 				happiness_bonus bonus 2 requires factions { portugal, }
 				law_bonus bonus -1
 				law_bonus bonus 1 requires factions { portugal, }
-				recruit_pool "Rebel Barrow Wights"  1   0.04   1  0  requires factions { portugal, england, }  and region_religion catholic 50
+				recruit_pool "Rebel Barrow Wights"  1   0.04   1  0  requires factions { portugal, england, russia, }  and region_religion catholic 50
 			}
 			material wooden
 			construction 6
@@ -13812,6 +13910,10 @@ building hinterland_unique1
 				recruit_pool "Temple Marksmen"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Gondor Infantry"  1   0.1   1  0  requires factions { sicily, }  and event_counter is_the_ai 1
 				recruit_pool "Gondor Spearmen"  1   0.1   1  0  requires factions { sicily, }  and event_counter is_the_ai 1
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
@@ -13968,6 +14070,10 @@ building hinterland_unique1
                 tower_level 2
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
                 recruit_pool "Nazg Hai"  1   0.06   1  0  requires factions { france, } and event_counter saruman_ring_event 1
 				agent_limit diplomat 2
 				agent diplomat  0
@@ -14014,6 +14120,10 @@ building hinterland_unique2
 				recruit_pool "Helmingas"  1   0.12   2  0  requires factions { milan, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				gate_strength 3
 			}
 			material wooden
@@ -14035,6 +14145,10 @@ building hinterland_unique2
 				recruit_pool "Eored Skirmishers"  	1   0.1   1  0  requires factions { milan, }    and event_counter is_the_ai 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				agent_limit diplomat 2
 				agent diplomat  0
 			}
@@ -14061,6 +14175,10 @@ building hinterland_unique2
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				agent_limit diplomat 2
 				agent diplomat  0
 			}
@@ -14096,6 +14214,10 @@ building hinterland_unique2
 				law_bonus bonus 1  requires factions { england, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 			}
 			material wooden
 			construction  6
@@ -14118,6 +14240,10 @@ building hinterland_unique2
 				recruit_pool "Minas Ithil Guardians"  1  0.06   2  0  requires factions { normans, milan, byzantium, scotland, }  and event_counter ithil_allied 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 			}
@@ -14138,6 +14264,10 @@ building hinterland_unique2
 				recruit_pool "Sea-ward Lancers"  1   0.05   1  0  requires factions { denmark, } and event_counter is_the_ai 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				recruit_pool "Temple Wards"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
@@ -14163,6 +14293,10 @@ building hinterland_unique2
 			{
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				recruit_pool "Temple Wards"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
@@ -14228,6 +14362,10 @@ building hinterland_unique3
 				recruit_pool "Snow Trolls"  1   0.04   1  0  requires factions { portugal, }  and event_counter is_the_ai 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Warg Javelins"  1   0.03   2  0  requires factions { gundabad, }
 				recruit_pool "Warg Raiders"  1   0.03   2  0  requires factions { gundabad, }
 				recruit_pool "Mount Gram Marauders"  1   0.025   2  0  requires factions { gundabad, }
@@ -14273,6 +14411,10 @@ building hinterland_unique3
                 law_bonus bonus 1  requires factions { scotland, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
                 retrain_cost_bonus bonus 1  requires factions { scotland, }
@@ -14327,6 +14469,10 @@ building hinterland_unique3
                 retrain_cost_bonus bonus 1  requires factions { byzantium, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				trade_base_income_bonus bonus 2 requires factions { byzantium, }
@@ -14355,6 +14501,10 @@ building hinterland_unique3
                 retrain_cost_bonus bonus 1  requires factions { venice, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				recruits_morale_bonus bonus 4 requires factions { venice, }
@@ -14383,6 +14533,10 @@ building hinterland_unique3
                 retrain_cost_bonus bonus 1  requires factions { spain, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				free_upkeep bonus 2 requires factions { spain, }
@@ -14409,6 +14563,10 @@ building hinterland_unique3
 			{
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
 				recruit_pool "Temple Wards"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
@@ -14444,6 +14602,10 @@ building hinterland_unique3
 				recruit_pool "Orthanc Warden"  1   0.025   1  0  requires factions { aztecs, }  and event_counter is_the_ai 1
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				agent_limit diplomat 2
 				agent diplomat  0
 			}
@@ -14477,6 +14639,10 @@ building hinterland_unique4
 				recruit_pool "Dwarven Travellers"  1  0.04   2  0  requires factions { normans, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Gate Keepers"  1   0.05   1  0  requires factions { turks, }  and region_religion islam 65 and event_counter arnor_restored 1
@@ -14517,6 +14683,10 @@ building hinterland_unique4
 				recruit_pool "Silvan Marchwardens"  0   0.075   1  0  requires factions { timurids, }  and region_religion northmen 75
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Isenmach Axemen"  1  0.05   1  0  requires factions { aztecs, } and event_counter dunland_elites 1
 				recruit_pool "Wulfs Pikes"  1   0.05   1  0  requires factions { aztecs, }  and event_counter dunland_elites 1
                 tower_level 2
@@ -14703,6 +14873,10 @@ building hinterland_tharbad_bridge
 				recruit_pool "Tharbad Royal Guard"  1   0.06   1  0  requires factions { normans, }
 				recruit_pool "Naru n'Aru Royal Knights"  1  0.03   1  0  requires factions { russia, } and region_religion kings 75
 				recruit_pool "Naru n'Aru Royal Guard"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 75
+				recruit_pool "Avari Naharim"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Spearmen"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Warriors"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
+				recruit_pool "Avari Shadows"  1   0.03   1  0  requires factions { russia, }  and region_religion kings 50
 				recruit_pool "Temple Wards"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
 				recruit_pool "Temple Marksmen"  1   0.025   1  0  requires factions { england, }  and region_religion catholic 75
 			}
